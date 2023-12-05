@@ -1,0 +1,83 @@
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+}
+.navbar img {
+    width: 40px;
+    height: auto;
+}
+.navbar a {
+    color: #574f4f;
+    text-decoration: none;
+    margin: 0 10px;
+}
+@media (max-width: 600px) {
+    .navbar img {
+        width: 50px;
+    }
+}
+       
+.section{
+    margin: 100px 0;
+    
+}
+
+
+        .card {
+            border: 1px solid #000;
+            background-color: #574f4f;
+        }
+        .card-title {
+            color: #e2d8d8;
+        }
+        .card-text {
+            color: #000;
+        }
+        .card {
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-img-top {
+            width: 100%;
+            height: 30vw;
+            object-fit: cover;
+        }
+       
+         
+        .form {
+            background-color: #8e3b3b; /* Cambia este valor al color que prefieras */
+          }
+
+          .mt-form{
+            margin-top: 5rem;
+          }
